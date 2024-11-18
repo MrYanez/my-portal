@@ -24,7 +24,7 @@
             <a href="contact.php" target="_blank">Contact</a>
             -->
             <!--The above commented out caused the hover:canyon in the header.php and template.php to stop responding-->
-            <a href="#" target="_blank">GitHub</a>
+            <a href="https://github.com/MrYanez/my-portal" target="_blank">GitHub</a>
             <a href="#" target="_blank">LinkedIn</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
@@ -38,4 +38,4 @@
             <source media="(min-width: 501px)" srcset="images/img_desktop.png">
             <img src="images/img_desktop.png" alt="">
         </picture>  -->
-        <h2 class="subheader"><?=$PageID?></h2> 
+        <h2 class="subheader"></h2> 

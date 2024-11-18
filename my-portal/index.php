@@ -49,7 +49,7 @@
             <li><a href="https://nahyan.dreamhosters.com/my-portal/includes/portal-config.php">Portal-config.php</a></li>
             <li><a href="contact.php">Contact.php</a></li>
             <li><a href="case-study.php">Case-Study.php</a></li>
-            <li><a href="">Github.php</a></li>
+            <li><a href="https://github.com/MrYanez/my-portal">Github.php</a></li>
             <li><a href="">LinkIn.html</a></li>
           </ul> 
     <!--body content ends here-->
