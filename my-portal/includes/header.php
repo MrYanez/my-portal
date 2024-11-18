@@ -15,10 +15,17 @@
      <header>
      <h1><i class="logo fa <?=$logo?>"></i>Nahum Yanez</h1>
         <nav class="topnav" id="myTopnav">
-        <a href="index.php" class="active">Home</a>
+        <?=makeLinks($nav1)?> <!-- I added this right after the below comment-->
+            <!-- I commented this below out after a created my functions.php-->
+
+            <!--
+            <a href="index.php" class="active">Home</a>
             <a href="" target="_blank">Case Study</a>
             <a href="contact.php" target="_blank">Contact</a>
-            <a href="" target="_blank">GitHub</a>
+            -->
+            <!--The above commented out caused the hover:canyon in the header.php and template.php to stop responding-->
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
      </header>
