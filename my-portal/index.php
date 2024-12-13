@@ -42,16 +42,24 @@
         <p>Links:</p>
         <ul>
             <li><a href="https://nahyan.dreamhosters.com/my-portal/index.html">Index.html</a></li>
-            <li><a href="index.php">Index.php</a></li>
+            <li><a href="https://nahyan.dreamhosters.com/my-portal/index.php">Index.php</a></li>
             <li><a href="https://nahyan.dreamhosters.com/my-portal/includes/header.php">Header.php</a></li>
             <li><a href="https://nahyan.dreamhosters.com/my-portal/includes/footer.php">Footer.php</a></li>
             <li><a href="https://nahyan.dreamhosters.com/my-portal/template.php">Template.php</a></li>
             <li><a href="https://nahyan.dreamhosters.com/my-portal/includes/portal-config.php">Portal-config.php</a></li>
             <li><a href="contact.php">Contact.php</a></li>
             <li><a href="case-study.php">Case-Study.php</a></li>
-            <li><a href="https://github.com/MrYanez/my-portal">Github.php</a></li>
+            <li><a href="https://nahyan.dreamhosters.com/my-portal/iPortfolio/">Bootsrap Template</a></li>
+            <li><a href="https://github.com/MrYanez/my-portal">Github repo</a></li>
             <li><a href="">LinkIn.html</a></li>
           </ul> 
+
+
+
+          <p>Take me to my Final Project located in "it162/fp/index.php"</p><p>This link takes me to final project index.php for my client website named <strong>CarlosBeauty Maquillista</strong></p>
+                <ul>
+                <li><a href="https://nahyan.dreamhosters.com/it162/fp/index.php">Click me!</a></li>
+                </ul>
     <!--body content ends here-->
 
     <!--footer starts her, applyed by nahum-->
