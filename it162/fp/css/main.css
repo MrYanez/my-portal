@@ -1,0 +1,241 @@
+/* Global rules */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html {
+    background-color:whitesmoke; /*this whitens the outside my page.*/
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.5em;
+}
+
+::selection {
+    color: black; 
+    background: #ff0;
+}
+
+.header {margin:auto;
+    text-align: center;
+    }
+
+
+h1 {
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: auto;
+    background-color:whitesmoke;
+    line-height: 1.5em;
+    font-size: 2em;
+    color: black;
+
+}
+
+/*---------------HEADER ENDS HERE-----------------------*/
+
+/*--wrapper starts*/
+main.wrapper {
+    background-color:whitesmoke;
+    overflow: auto;
+}
+
+
+/*--FONT AWESOME ICONS IN HEADER START HERE--*/
+/* Style all font awesome icons */
+.header .fa {
+    padding: 3px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float:center;
+    transition: transform .2s;
+    margin-right:1px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .fa:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  /* Set a specific color for each brand */
+  /* Facebook */
+  .fa-facebook {
+    background: blue;
+    color: white;
+  }
+
+ .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: orangered;
+    color: white;
+  }
+
+/*--FONT AWESOME ICONS IN HEADER END HERE--*/
+
+p {
+    margin: 1em; /* Top Right Bottom Left (TRBL) */
+    color: white;
+}
+
+h2 {
+    font-weight: normal;
+    margin-left: 1em;
+    line-height: 1.5em;
+    padding:1.5em;
+    margin:auto;
+    color:black;
+    font-size:1.5em;
+    text-align: center;
+}
+
+p {
+    margin: 1em; /* Top Right Bottom Left (TRBL) */
+    color: black;
+    margin:auto;
+    text-align: center;
+    
+}
+
+h3 {
+    font-weight: normal;
+    margin-left: 1em;
+    line-height: 1.5em;
+    padding:1.5em;
+    margin:auto;
+    color:black;
+    font-size:1.5em;
+    text-align: center;
+}
+
+
+h3 p {color: black;
+    margin: 1em; /* Top Right Bottom Left (TRBL) */
+    font-size:0.5em;
+    float:center;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ffffff;
+    background-color: red;
+    text-decoration: none;
+}
+
+
+ul {list-style-type: none;}
+li {color:darkred;}
+
+
+#portal_page {margin-top:20px;
+padding:10px;
+background-color:whitesmoke;}
+
+#portal_page p a{color:darkred;}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 30px;
+}
+
+footer p {color:black;}
+
+
+
+/* Responsive rules */
+
+/* DESKTOP */
+@media all and (min-width:1200px) {
+    main.wrapper {
+        width: 80%;
+        margin: auto;
+    }
+    
+    h1 {
+        width: 79%;
+        padding-left: 1%;
+    }
+    
+    picture.profile img {
+        width: 50%;
+        float: left;
+        margin-right: 2em;
+        margin-top: 1em;
+    }
+    
+}
+
+/* TABLET */
+@media all and (min-width:501px) and (max-width:1199px) {
+    main.wrapper {
+        width: 90%;
+        margin: auto;
+    }
+    
+    h1 {
+        width: 89%;
+        padding-left: 1%;
+    }
+    
+    picture.profile img {
+        width: 50%;
+        float: left;
+        margin-right: 2em;
+        margin-top: 1em;
+    }
+
+}
+
+/* PHONE */
+@media all and (max-width:500px) {
+    main.wrapper {
+        width: 100%;
+    }
+    
+    h1 {
+        width: 99%;
+        padding-left: 1%;
+    }
+    
+    picture.profile img {
+        width: 100%;
+    }
+    
+}
+
+
+/*SCROL TOP BUTTOM STATS HERE*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 0px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 8px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color:red ; /* Add a dark-grey background on hover */
+  }

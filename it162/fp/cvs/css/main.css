@@ -1,0 +1,213 @@
+/* Global rules */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html {
+    background-color:black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.5em;
+}
+
+::selection {
+    color: #000; 
+    background: #ff0;
+}
+
+.header {margin:auto;
+    text-align: center;
+    }
+
+
+h1 {
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: auto;
+    background-color:black;
+    line-height: 1.5em;
+    font-size: 2em;
+    color: #ffffff;
+    float:center;
+}
+
+img {float:center;
+}
+/*---------------HEADER ENDS HERE-----------------------*/
+
+/*--wrapper starts*/
+main.wrapper {
+    background-color: black;
+    overflow: auto;
+}
+
+
+/*--FONT AWESOME ICONS IN HEADER START HERE--*/
+/* Style all font awesome icons */
+.header .fa {
+    padding: 3px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float:center;
+    transition: transform .2s;
+    margin-right:1px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .fa:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  /* Set a specific color for each brand */
+  /* Facebook */
+  .fa-facebook {
+    background: blue;
+    color: white;
+  }
+
+ .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: orangered;
+    color: white;
+  }
+
+/*--FONT AWESOME ICONS IN HEADER END HERE--*/
+
+p {
+    margin: 1em; /* Top Right Bottom Left (TRBL) */
+    color: white;
+}
+
+h2 {
+    font-weight: normal;
+    margin-left: 1em;
+    line-height: 1.5em;
+    padding:1.5em;
+    margin:auto;
+    color: #ffffff;
+    font-size:1.5em;
+    text-align: center;
+}
+
+h1, h2 p {
+    margin: 1em; /* Top Right Bottom Left (TRBL) */
+    color: #ffffff;
+    margin:auto;
+    text-align: center;
+    
+}
+
+h3 {
+    font-weight: normal;
+    margin-left: 1em;
+    line-height: 1.5em;
+    padding:1.5em;
+    margin:auto;
+    color: #ffffff;
+    font-size:1.5em;
+    text-align: center;
+}
+
+h3 p {color:#ffffff;
+    margin: 1em; /* Top Right Bottom Left (TRBL) */
+    font-size:0.5em;
+    float:center;
+}
+
+a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ffffff;
+    background-color: red;
+    text-decoration: none;
+}
+
+
+ul {list-style-type: none;}
+li {color:darkred;}
+
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+}
+
+footer p {color:#ffffff;}
+
+
+
+/* Responsive rules */
+
+/* DESKTOP */
+@media all and (min-width:1200px) {
+    main.wrapper {
+        width: 80%;
+        margin: auto;
+    }
+    
+    h1 {
+        width: 79%;
+        padding-left: 1%;
+    }
+    
+    picture.profile img {
+        width: 50%;
+        float: left;
+        margin-right: 2em;
+        margin-top: 1em;
+    }
+    
+}
+
+/* TABLET */
+@media all and (min-width:501px) and (max-width:1199px) {
+    main.wrapper {
+        width: 90%;
+        margin: auto;
+    }
+    
+    h1 {
+        width: 89%;
+        padding-left: 1%;
+    }
+    
+    picture.profile img {
+        width: 50%;
+        float: left;
+        margin-right: 2em;
+        margin-top: 1em;
+    }
+
+}
+
+/* PHONE */
+@media all and (max-width:500px) {
+    main.wrapper {
+        width: 100%;
+    }
+    
+    h1 {
+        width: 99%;
+        padding-left: 1%;
+    }
+    
+    picture.profile img {
+        width: 100%;
+    }
+    
+}
